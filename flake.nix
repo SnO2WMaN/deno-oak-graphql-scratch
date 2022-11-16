@@ -2,7 +2,6 @@
   # main
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    deno2nix.url = "github:SnO2WMaN/deno2nix";
     devshell.url = "github:numtide/devshell";
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -19,7 +18,6 @@
           inherit system;
           overlays = with inputs; [
             devshell.overlay
-            deno2nix.overlays.default
           ];
         };
       in {
@@ -29,7 +27,6 @@
             treefmt
             deno
           ];
-          devshell.startup.deno_lock.text = "deno task lock";
         };
       }
     );

@@ -76,5 +76,14 @@
     "https://deno.land/x/oak@v11.1.0/types.d.ts": "41951a18c3bfdb11e40707cab75da078ba8a4907cd7d4e11d8536bc2db0dde05",
     "https://deno.land/x/oak@v11.1.0/util.ts": "3af8c4ed04c6cc2bedbe66e562a77fc59c72df31c55a902a63885861ca1639d6",
     "https://deno.land/x/path_to_regexp@v6.2.1/index.ts": "894060567837bae8fc9c5cbd4d0a05e9024672083d5883b525c031eea940e556"
+  },
+  "npm": {
+    "specifiers": { "graphql": "graphql@16.6.0" },
+    "packages": {
+      "graphql@16.6.0": {
+        "integrity": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==",
+        "dependencies": {}
+      }
+    }
   }
 }
